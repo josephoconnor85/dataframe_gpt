@@ -1,11 +1,11 @@
 from openai import OpenAI
 import pandas as pd
 import os
-
+from constants import api_key
 
 
 client = OpenAI(
-    api_key="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"
+    api_key
 )
 
 
